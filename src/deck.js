@@ -45,8 +45,8 @@ export default class Deck extends Component {
     });
     return (
       <div>
-        <h1>Crad Dealer</h1>
-        <button onClick={this.getCard}>get card</button>
+        <h1 style={{ color: "white" }}>◆ Crad Dealer ◆</h1>
+        <button onClick={this.getCard}>❤ Get Card ❤</button>
         <div className="deck-card">{cards}</div>
       </div>
     );
